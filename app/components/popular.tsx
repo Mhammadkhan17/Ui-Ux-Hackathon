@@ -8,3 +8,4 @@ const PopularCar = () => {
         </div>
     </div>
 }
+export default PopularCar
