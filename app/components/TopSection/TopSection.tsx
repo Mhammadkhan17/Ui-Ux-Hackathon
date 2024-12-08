@@ -2,7 +2,7 @@ import React from 'react';
 import LeftBackgroundImage from './LeftBackgroundImage';
 import RightBackgroundImage from './RightBackgroundImage';
 import Image from 'next/image';
-import Button from '../Button';
+import { Button } from '@/components/ui/button';
 
 const TopSection = () => {
   return (
