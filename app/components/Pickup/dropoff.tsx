@@ -12,7 +12,7 @@ import {
 
 const DropOff = () => {
     return (
-        <div className="w-[480px] h-[132px] ml-[64px] rounded-lg">
+        <div className="w-[480px] h-[132px] rounded-lg">
             <div className="w-[92px] h-5 ml-12 gap-2">
                 <input type="radio" name="Pick-up" id="DropOff" />
             <label htmlFor="DropOff" className="pl-2">Drop-Off</label>

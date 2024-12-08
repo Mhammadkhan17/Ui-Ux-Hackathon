@@ -8,7 +8,7 @@ const MainHeader = () => {
             <div className="w-[327px] h-7 mt-8 mx-5 lg:hidden">
             <div className="flex justify-between">
                 <p className="text-2xl font-bold w-[108px] text-[#3563E9]">Morent</p>
-                <Image src='/avatar.png' height={350} width={350} alt="avatar"
+                <Image src='/Image.png' height={350} width={350} alt="avatar"
                 className="w-7 h-7 rounded-full"
                 /></div>
                 <div className="flex w-[270px] h-[55px] text-center ml-[25px] mt-[92px]">
@@ -17,11 +17,6 @@ const MainHeader = () => {
                         placeholder="Search something here"
                         className="py-2 text-center rounded-3xl border border-gray-300 bg-gray-100 text-gray-900 focus:ring-blue-500 focus:border-blue-500 focus:outline-none"
                     />
-                    <div className="rounded-3xl border p-4 gap-6">
-                        <Image src='/filter.png' alt="filter" height={24} width={24}
-                        className="object-center"
-                        />
-                    </div>
                     </div>
             </div>
 

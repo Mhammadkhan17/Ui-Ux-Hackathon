@@ -6,7 +6,7 @@ import TopSection from './components/TopSection/TopSection';
 
 export default function Home() {
   return (
-    <div className="w-[375px] h-[3257px] lg:w-[1440px] lg:h-[2724px]">
+    <div className="w-[375px] h-[3257px] lg:w-[1440px] lg:h-[2560px]">
       <MainHeader/>
       <TopSection/>
       <div className='grid grid-cols-3 w-full] h-[160] mt-12'>
