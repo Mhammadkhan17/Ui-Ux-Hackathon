@@ -14,7 +14,7 @@ const MainHeader = () => {
                 <div className="flex w-[270px] h-[55px] text-center ml-[25px] mt-[92px]">
                     <input 
                         type="text"
-                        placeholder="Search something here!"
+                        placeholder="Search something here"
                         className="py-2 text-center rounded-3xl border border-gray-300 bg-gray-100 text-gray-900 focus:ring-blue-500 focus:border-blue-500 focus:outline-none"
                     />
                     </div>
@@ -27,13 +27,13 @@ const MainHeader = () => {
                     <input 
                         type="text"
                         className="w-[492px] h-11 text-center ml-[270px] block pr-4 mt-[40px] py-2 border border-gray-300 bg-gray-100 text-gray-900 focus:ring-blue-500 focus:border-blue-500 focus:outline-none"
-                        placeholder="Search something here"
+                        placeholder="Search something here!"
                     />
                     <div className="flex mt-[40px]">
                         <Heart className="m-2"/>
                         <BellDot className="m-2"/>
                         <Settings className="m-2"/>
-                        <Image src='/avatar.png' alt="avatar" height={350} width={350} className="w-8 h-8 m-2"/>
+                        <Image src='/Image.png' alt="avatar" height={350} width={350} className="w-8 h-8 m-2"/>
                     </div></div>
             </div>
         </div>
