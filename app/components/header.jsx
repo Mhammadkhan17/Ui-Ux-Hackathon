@@ -14,7 +14,7 @@ const MainHeader = () => {
                 <div className="flex w-[270px] h-[55px] text-center ml-[25px] mt-[92px]">
                     <input 
                         type="text"
-                        placeholder="Search something here"
+                        placeholder="Search something here!"
                         className="py-2 text-center rounded-3xl border border-gray-300 bg-gray-100 text-gray-900 focus:ring-blue-500 focus:border-blue-500 focus:outline-none"
                     />
                     </div>
