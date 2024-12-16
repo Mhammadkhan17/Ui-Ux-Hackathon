@@ -197,7 +197,7 @@ const DetailedCar = () => {
               <div className="flex items-start">
                 {/* Avatar */}
                 <Image
-                  src="/profill.png"
+                  src="/Image(2).png"
                   alt="Skylar Dias"
                   width={56}
                   height={56}
