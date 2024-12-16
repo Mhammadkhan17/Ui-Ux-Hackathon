@@ -1,20 +1,24 @@
-import Image from "next/image"
+import Image from "next/image";
 const RecentCar = () => {
-    return (
-        <div className="my-10">
-            <div className="flex justify-between my-5">
-                <div>Recent Car</div>
-                <div></div>
-                <div><button className='text-blue-700'>View all</button></div>
-            </div>
-            <div className="grid grid-cols-3 gap-5">
-            <div className="w-[304px] flex items-center justify-center">
+  return (
+    <div className="my-10">
+      <div className="flex justify-between my-5">
+        <div>Recent Car</div>
+        <div></div>
+        <div>
+          <button className="text-blue-700">View all</button>
+        </div>
+      </div>
+      <div className="grid grid-cols-3 gap-5">
+        <div className="w-[304px] flex items-center justify-center">
           <div className="max-w-xs h-[388px] px-5 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
             {/* Title Section */}
             <div className="p-4">
               <div className="flex justify-between items-center">
                 <div>
-                  <h2 className="text-lg font-bold text-gray-900">Koenigsegg</h2>
+                  <h2 className="text-lg font-bold text-gray-900">
+                    Koenigsegg
+                  </h2>
                   <p className="text-sm text-gray-500">Sport</p>
                 </div>
                 <button className="text-red-500 hover:text-red-600">
@@ -45,31 +49,31 @@ const RecentCar = () => {
               <div className="flex justify-between items-center text-gray-600 text-sm">
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/fuel.png'
-                  height={1000}
-                  width={1000}
-                  alt="fuel"
-                  className="h-4 w-4"
+                    src="/fuel.png"
+                    height={1000}
+                    width={1000}
+                    alt="fuel"
+                    className="h-4 w-4"
                   />
                   <span>90L</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/manual.png'
-                  height={1000}
-                  width={1000}
-                  alt="manual"
-                  className="h-4 w-4"
+                    src="/manual.png"
+                    height={1000}
+                    width={1000}
+                    alt="manual"
+                    className="h-4 w-4"
                   />
                   <span>Manual</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/user.png'
-                  alt="user"
-                  height={1000}
-                  width={1000}
-                  className="h-4 w-4"
+                    src="/user.png"
+                    alt="user"
+                    height={1000}
+                    width={1000}
+                    className="h-4 w-4"
                   />
                   <span>2 People</span>
                 </div>
@@ -89,13 +93,14 @@ const RecentCar = () => {
           </div>
         </div>
         <div className="w-[304px] flex items-center justify-center">
-          
           <div className="max-w-xs h-[388px] px-5 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
             {/* Title Section */}
             <div className="p-4">
               <div className="flex justify-between items-center">
                 <div>
-                  <h2 className="text-lg font-bold text-gray-900">Nissan GT - R</h2>
+                  <h2 className="text-lg font-bold text-gray-900">
+                    Nissan GT - R
+                  </h2>
                   <p className="text-sm text-gray-500">Sport</p>
                 </div>
                 <button className="text-red-500 hover:text-red-600">
@@ -126,31 +131,31 @@ const RecentCar = () => {
               <div className="flex justify-between items-center text-gray-600 text-sm">
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/fuel.png'
-                  height={1000}
-                  width={1000}
-                  alt="fuel"
-                  className="h-4 w-4"
+                    src="/fuel.png"
+                    height={1000}
+                    width={1000}
+                    alt="fuel"
+                    className="h-4 w-4"
                   />
                   <span>90L</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/manual.png'
-                  height={1000}
-                  width={1000}
-                  alt="manual"
-                  className="h-4 w-4"
+                    src="/manual.png"
+                    height={1000}
+                    width={1000}
+                    alt="manual"
+                    className="h-4 w-4"
                   />
                   <span>Manual</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/user.png'
-                  alt="user"
-                  height={1000}
-                  width={1000}
-                  className="h-4 w-4"
+                    src="/user.png"
+                    alt="user"
+                    height={1000}
+                    width={1000}
+                    className="h-4 w-4"
                   />
                   <span>2 People</span>
                 </div>
@@ -168,16 +173,16 @@ const RecentCar = () => {
               </div>
             </div>
           </div>
-        
         </div>
         <div className="w-[304px] flex items-center justify-center">
-          
           <div className="max-w-xs h-[388px] px-5 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
             {/* Title Section */}
             <div className="p-4">
               <div className="flex justify-between items-center">
                 <div>
-                  <h2 className="text-lg font-bold text-gray-900">Rolls-Royce</h2>
+                  <h2 className="text-lg font-bold text-gray-900">
+                    Rolls-Royce
+                  </h2>
                   <p className="text-sm text-gray-500">Sedan</p>
                 </div>
                 <button className="text-red-500 hover:text-red-600">
@@ -208,31 +213,31 @@ const RecentCar = () => {
               <div className="flex justify-between items-center text-gray-600 text-sm">
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/fuel.png'
-                  height={1000}
-                  width={1000}
-                  alt="fuel"
-                  className="h-4 w-4"
+                    src="/fuel.png"
+                    height={1000}
+                    width={1000}
+                    alt="fuel"
+                    className="h-4 w-4"
                   />
                   <span>90L</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/manual.png'
-                  height={1000}
-                  width={1000}
-                  alt="manual"
-                  className="h-4 w-4"
+                    src="/manual.png"
+                    height={1000}
+                    width={1000}
+                    alt="manual"
+                    className="h-4 w-4"
                   />
                   <span>Manual</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <Image
-                  src='/user.png'
-                  alt="user"
-                  height={1000}
-                  width={1000}
-                  className="h-4 w-4"
+                    src="/user.png"
+                    alt="user"
+                    height={1000}
+                    width={1000}
+                    className="h-4 w-4"
                   />
                   <span>2 People</span>
                 </div>
@@ -250,10 +255,9 @@ const RecentCar = () => {
               </div>
             </div>
           </div>
-        
         </div>
-            </div>
-        </div>
-    )
-}
-export default RecentCar
+      </div>
+    </div>
+  );
+};
+export default RecentCar;

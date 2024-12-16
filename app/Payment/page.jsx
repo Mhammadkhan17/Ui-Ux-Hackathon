@@ -1,3 +1,4 @@
+import Image from "next/image";
 const PaymentCar = () => {
   return (
     <div className="bg-[#F6F7F9]">
@@ -273,12 +274,20 @@ const PaymentCar = () => {
                     </label>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <img
+                    <Image
                       src="/Visa_Inc._logo 1.png"
                       alt="Visa"
+                      width={48}
+                      height={16}
                       className="h-4"
                     />
-                    <img src="/mc.png" alt="Mastercard" className="h-4" />
+                    <Image
+                      src="/mc.png"
+                      alt="Mastercard"
+                      width={32}
+                      height={20}
+                      className="h-4"
+                    />
                   </div>
                 </div>
 
@@ -362,7 +371,13 @@ const PaymentCar = () => {
                   className="ml-3 flex justify-between px-5 py-2 items-center w-full text-sm font-medium text-gray-900"
                 >
                   PayPal
-                  <img src="/PayPal.png" alt="PayPal" className="h-4" />
+                  <Image
+                    src="/PayPal.png"
+                    alt="PayPal"
+                    width={90}
+                    height={25}
+                    className="h-4"
+                  />
                 </label>
               </div>
 
@@ -379,7 +394,13 @@ const PaymentCar = () => {
                   className="ml-3 flex justify-between px-5 py-2 items-center w-full text-sm font-medium text-gray-900"
                 >
                   Bitcoin
-                  <img src="/Bitcoin.png" alt="Bitcoin" className="h-4" />
+                  <Image
+                    src="/Bitcoin.png"
+                    alt="Bitcoin"
+                    width={94}
+                    height={20}
+                    className="h-4"
+                  />
                 </label>
               </div>
             </div>
@@ -440,7 +461,12 @@ const PaymentCar = () => {
 
               {/* Security Note */}
               <div className="mt-6 space-x-2 text-sm text-gray-500">
-                <img src="/ic-security-safety.png" alt="img" />
+                <Image
+                  src="/ic-security-safety.png"
+                  width={32}
+                  height={32}
+                  alt="Image"
+                />
                 <div>
                   <p className="font-medium mt-2 text-gray-900">
                     All your data are safe
@@ -461,7 +487,7 @@ const PaymentCar = () => {
             price of your rental car.
           </p>
           <div className="flex justify-center mt-8">
-            <img src="/Look.png" alt="look" />
+            <Image src="/Look.png" alt="look" width={132} height={108} />
             <div className="mx-5">
               <h1 className="text-4xl">Nissan GT - R</h1>
               <div className="flex items-center text-yellow-500">
@@ -510,10 +536,15 @@ const PaymentCar = () => {
               </span>
             </label>
           </div>
-         <div className="w-full px-5 pt-16 flex justify-between">
-            <div><p className="text-lg font-bold">Total Rental Price</p><p className="text-sm font-medium text-[#90A3BF]">Overall price and includes rental discount</p></div>
+          <div className="w-full px-5 pt-16 flex justify-between">
+            <div>
+              <p className="text-lg font-bold">Total Rental Price</p>
+              <p className="text-sm font-medium text-[#90A3BF]">
+                Overall price and includes rental discount
+              </p>
+            </div>
             <div className="text-3xl">$80.00</div>
-         </div>
+          </div>
         </div>
       </div>
     </div>
