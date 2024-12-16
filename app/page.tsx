@@ -1,18 +1,15 @@
-import MainHeader from './components/header'
-import DropOff from './components/Pickup/dropoff';
-import PickUp from './components/Pickup/pickup';
-import Swap from './components/Pickup/swap';
 import TopSection from './components/TopSection/TopSection';
+import PickUpSection from '../app/components/Pickupsection/pickupsection'
+import PopularCar from './components/popular';
+import RecCar from './components/recommendation'
 
 export default function Home() {
   return (
-    <div className="w-[375px] h-[3257px] lg:w-[1440px] lg:h-[2560px]">
-      <MainHeader/>
-      <TopSection/>
-      <div className='grid grid-cols-3 w-full] h-[160] mt-12'>
-      <PickUp/>
-      <div className='flex justify-center'><Swap/></div>
-      <DropOff/>
+    <div>
+      <div className='mx-7'><TopSection/>
+      <PickUpSection/>
+      <PopularCar/>
+      <RecCar/>
       </div>
     </div>
   );

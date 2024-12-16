@@ -3,7 +3,7 @@ import { Heart, BellDot, Settings } from 'lucide-react';
 
 const MainHeader = () => {
     return (
-        <div className="w-[375px] h-[288px] lg:w-[1440px] lg:h-[124px]">
+        <div>
             {/* Mobile Header (visible on mobile) */}
             <div className="w-[327px] h-7 mt-8 mx-5 lg:hidden">
             <div className="flex justify-between">
@@ -21,7 +21,7 @@ const MainHeader = () => {
             </div>
 
             {/* Desktop Header (visible on large screens) */}
-            <div className="hidden lg:block w-[1440px] h-[124px] border">
+            <div className="hidden lg:block w-full h-[124px] border">
                 <div className="flex justify-around">
                 <p className="w-[148px] h-[44px] text-[32px] text-[#3563E9] font-bold pt-10 pl-[60px]">MORENT</p>
                     <input 

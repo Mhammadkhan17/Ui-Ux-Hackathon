@@ -12,18 +12,23 @@ import {
 
 const PickUp = () => {
     return (
-        <div className="w-[480px] h-[132px] ml-[64px] rounded-lg">
-            <div className="w-[92px] h-5 ml-12 gap-2">
+      <div className="w-full rounded-lg text-[#1A202C]">
+            <div className="w-[92px] h-5 ml-12 gap-2 mb-6">
                 <input type="radio" name="Pick-up" id="pickup" />
             <label htmlFor="pickup" className="pl-2">Pick-Up</label>
             </div>
-            <div  className="grid grid-cols-3">
+            <div className="grid grid-cols-3 text-center font-bold">
+              <div><p>Locations</p></div>
+              <div><p>Date</p></div>
+              <div><p>Time</p></div>
+            </div>
+            <div  className="grid grid-cols-3 font-medium text-gray-500">
                 <div><NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
-      <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+      <NavigationMenuTrigger><p className="mr-4">Select your location</p></NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
+        <NavigationMenuLink>Available locations</NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
   </NavigationMenuList>
@@ -32,9 +37,9 @@ const PickUp = () => {
                 <div><NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
-      <NavigationMenuTrigger>Item Two</NavigationMenuTrigger>
+      <NavigationMenuTrigger><p className="mr-4">Select your date</p></NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
+        <NavigationMenuLink>Available dates</NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
   </NavigationMenuList>
@@ -43,9 +48,9 @@ const PickUp = () => {
                 <div><NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
-      <NavigationMenuTrigger>Item Three</NavigationMenuTrigger>
+      <NavigationMenuTrigger><p className="mr-4">Select your Time</p></NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
+        <NavigationMenuLink>Available time</NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
   </NavigationMenuList>
