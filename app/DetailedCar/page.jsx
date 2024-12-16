@@ -83,8 +83,8 @@ const DetailedCar = () => {
 
       {/* Card Description */}
       <p className="text-sm text-gray-600 mt-2 py-6">
-        NISMO has become the embodiment of Nissan's outstanding performance,
-        inspired by the most unforgiving proving ground, the "race track".
+        NISMO has become the embodiment of Nissan&apos;s outstanding performance,
+        inspired by the most unforgiving proving ground, the &quot;race track&quot;.
       </p>
 
       {/* Features Section */}
